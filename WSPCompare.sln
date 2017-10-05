@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib32", "Lib32", "{B14BFA03-EFDA-41A5-A436-9BD85C16E382}"
+	ProjectSection(SolutionItems) = preProject
+		Lib32\CabLib.dll = Lib32\CabLib.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib64", "Lib64", "{2B994FBD-0B4B-490E-92AA-80A0D5DB4ABD}"
+	ProjectSection(SolutionItems) = preProject
+		Lib64\CabLib.dll = Lib64\CabLib.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSPCompare", "WSPCompare\WSPCompare.csproj", "{9490A30B-E25F-4C00-8DED-754F1B28E34A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "README", "README", "{ECB05395-C0BC-4700-A2AA-11E1B4BC0432}"
+	ProjectSection(SolutionItems) = preProject
+		README\browse.png = README\browse.png
+		README\compare-content.png = README\compare-content.png
+		README\compare.png = README\compare.png
+		README.md = README.md
+		README\WSPCompare.x64.zip = README\WSPCompare.x64.zip
+		README\WSPCompare.x86.zip = README\WSPCompare.x86.zip
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release32|Any CPU = Release32|Any CPU
+		Release64|Any CPU = Release64|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9490A30B-E25F-4C00-8DED-754F1B28E34A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9490A30B-E25F-4C00-8DED-754F1B28E34A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9490A30B-E25F-4C00-8DED-754F1B28E34A}.Release32|Any CPU.ActiveCfg = Release32|Any CPU
+		{9490A30B-E25F-4C00-8DED-754F1B28E34A}.Release32|Any CPU.Build.0 = Release32|Any CPU
+		{9490A30B-E25F-4C00-8DED-754F1B28E34A}.Release64|Any CPU.ActiveCfg = Release|Any CPU
+		{9490A30B-E25F-4C00-8DED-754F1B28E34A}.Release64|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2693ACB2-AD66-41EA-993E-AE03AFA9010A}
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal
