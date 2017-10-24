@@ -2,9 +2,7 @@
 
 Browse and compare contents of .wsp files with this tool for SharePoint (all versions) developers and administrators
 
-Downloads :
-* [WSPCompare x64 (recommended)](README/WSPCompare.x64.zip)
-* [WSPCompare x86 (for old SharePoint 2007 environments)](README/WSPCompare.x86.zip)
+[Downloads](https://github.com/ArnaultNouvel/wspcompare/releases/latest)
 
 Browse the contents of any .wsp file :
 
